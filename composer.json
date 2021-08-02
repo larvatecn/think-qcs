@@ -32,14 +32,10 @@
     "friendsofphp/php-cs-fixer": "^3.0"
   },
   "extra": {
-    "laravel": {
-      "providers": [
-        "QcsService"
-      ],
-      "facades": {
-        "Tms": "Larva\\ThinkQcs\\Tms",
-        "Ims": "Larva\\ThinkQcs\\Ims"
-      }
+    "think": {
+      "services": [
+        "Larva\\ThinkQcs\\QcsService"
+      ]
     },
     "hooks": {
       "pre-commit": [
